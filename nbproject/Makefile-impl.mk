@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Pasta Cimentada
+PROJECTNAME=Pasta_Cimentada
 
 # Active Configuration
 DEFAULTCONF=Debug

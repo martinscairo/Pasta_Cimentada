@@ -1,12 +1,27 @@
 #include <geometria/Linha.h>
 
-void Linha::AddTubo (const Tubo& _tubo)
+//==============================================================================
+//                           funções friend  
+//==============================================================================
+std::ostream& operator << (std::ostream& _os, const Linha& _linha)
 {
-
-    list_tubos.push_back(_tubo);
-    
+int contador(0);    
+    for (auto & ilinha : _linha.list_tubos) 
+        //iguala o endereço do ponteiro ilinha aos endereços da lista
+        // for (ilinha = _linha.list_tubos.begin(); ilinha !=_linha.list_tubos.end(); ++ilinha)
+    {
+        _os << "tubo [" 
+            << ++contador
+            << "] : "
+            << ilinha 
+            << "\n";
+    }
+    return _os;
 }
 
+//==============================================================================
+//                           sobrecarga de operadores  
+//==============================================================================
 const Linha& Linha::operator= (const Linha& _orig)
 {
     if (this != &_orig)
@@ -17,16 +32,15 @@ const Linha& Linha::operator= (const Linha& _orig)
     return *this;
 }
 
-std::ostream& operator << (std::ostream& _os, const Linha& _linha)
+
+
+//==============================================================================
+//                           funções da classe
+//==============================================================================
+void Linha::AddTubo (const Tubo& _tubo)
 {
-int contador(0);    
-    for (auto & ilinha : _linha.list_tubos)
-    {
-        _os << "tubo [ " 
-            << ++contador
-            << "] : "
-            << ilinha 
-            << "\n";
-    }
-    return _os;
+
+    list_tubos.push_back(_tubo);
+    
 }
+

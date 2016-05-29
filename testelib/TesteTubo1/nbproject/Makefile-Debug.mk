@@ -56,13 +56,13 @@ LDLIBSOPTIONS=../../dist/Debug/Cygwin-Windows/libpastacimentada.a
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testetubo.exe
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testetubo1.exe
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testetubo.exe: ../../dist/Debug/Cygwin-Windows/libpastacimentada.a
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testetubo1.exe: ../../dist/Debug/Cygwin-Windows/libpastacimentada.a
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testetubo.exe: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testetubo1.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testetubo ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testetubo1 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
 ${OBJECTDIR}/TesteTubo.o: TesteTubo.cpp 
 	${MKDIR} -p ${OBJECTDIR}
@@ -76,7 +76,7 @@ ${OBJECTDIR}/TesteTubo.o: TesteTubo.cpp
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testetubo.exe
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testetubo1.exe
 
 # Subprojects
 .clean-subprojects:

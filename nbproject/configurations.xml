@@ -5,16 +5,16 @@
                    displayName="Arquivos de Cabeçalho"
                    projectFiles="true">
       <logicalFolder name="geometria" displayName="geometria" projectFiles="true">
-        <itemPath>C:/Users/Leonardo/Documents/Iniciação Científica/Pasta Cimentada/include/geometria/Linha.h</itemPath>
-        <itemPath>C:/Users/Leonardo/Documents/Iniciação Científica/Pasta Cimentada/include/geometria/Tubo.h</itemPath>
+        <itemPath>C:/Users/Cliente/OneDrive/Iniciação Científica/Netbeans/Pasta_Cimentada/include/geometria/Linha.h</itemPath>
+        <itemPath>C:/Users/Cliente/OneDrive/Iniciação Científica/Netbeans/Pasta_Cimentada/include/geometria/Tubo.h</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Arquivos de Código-Fonte"
                    projectFiles="true">
       <logicalFolder name="geometria" displayName="geometria" projectFiles="true">
-        <itemPath>C:/Users/Leonardo/Documents/Iniciação Científica/Pasta Cimentada/lib/geometria/Linha.cpp</itemPath>
-        <itemPath>C:/Users/Leonardo/Documents/Iniciação Científica/Pasta Cimentada/lib/geometria/Tubo.cpp</itemPath>
+        <itemPath>C:/Users/Cliente/OneDrive/Iniciação Científica/Netbeans/Pasta_Cimentada/lib/geometria/Linha.cpp</itemPath>
+        <itemPath>C:/Users/Cliente/OneDrive/Iniciação Científica/Netbeans/Pasta_Cimentada/lib/geometria/Tubo.cpp</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -36,6 +36,8 @@
   <sourceRootList>
     <Elem>C:\Users\Leonardo\Documents\Iniciação Científica\Pasta Cimentada\include</Elem>
     <Elem>C:\Users\Leonardo\Documents\Iniciação Científica\Pasta Cimentada\lib\geometria</Elem>
+    <Elem>C:\Users\Cliente\OneDrive\Iniciação Científica\Netbeans\Pasta_Cimentada\lib\geometria</Elem>
+    <Elem>C:\Users\Cliente\OneDrive\Iniciação Científica\Netbeans\Pasta_Cimentada\include\geometria</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -55,22 +57,22 @@
         <archiverTool>
         </archiverTool>
       </compileType>
-      <item path="C:/Users/Leonardo/Documents/Iniciação Científica/Pasta Cimentada/include/geometria/Linha.h"
+      <item path="C:/Users/Cliente/OneDrive/Iniciação Científica/Netbeans/Pasta_Cimentada/include/geometria/Linha.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="C:/Users/Leonardo/Documents/Iniciação Científica/Pasta Cimentada/include/geometria/Tubo.h"
+      <item path="C:/Users/Cliente/OneDrive/Iniciação Científica/Netbeans/Pasta_Cimentada/include/geometria/Tubo.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="C:/Users/Leonardo/Documents/Iniciação Científica/Pasta Cimentada/lib/geometria/Linha.cpp"
+      <item path="C:/Users/Cliente/OneDrive/Iniciação Científica/Netbeans/Pasta_Cimentada/lib/geometria/Linha.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="C:/Users/Leonardo/Documents/Iniciação Científica/Pasta Cimentada/lib/geometria/Tubo.cpp"
+      <item path="C:/Users/Cliente/OneDrive/Iniciação Científica/Netbeans/Pasta_Cimentada/lib/geometria/Tubo.cpp"
             ex="false"
             tool="1"
             flavor2="0">
@@ -102,22 +104,22 @@
         <archiverTool>
         </archiverTool>
       </compileType>
-      <item path="C:/Users/Leonardo/Documents/Iniciação Científica/Pasta Cimentada/include/geometria/Linha.h"
+      <item path="C:/Users/Cliente/OneDrive/Iniciação Científica/Netbeans/Pasta_Cimentada/include/geometria/Linha.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="C:/Users/Leonardo/Documents/Iniciação Científica/Pasta Cimentada/include/geometria/Tubo.h"
+      <item path="C:/Users/Cliente/OneDrive/Iniciação Científica/Netbeans/Pasta_Cimentada/include/geometria/Tubo.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="C:/Users/Leonardo/Documents/Iniciação Científica/Pasta Cimentada/lib/geometria/Linha.cpp"
+      <item path="C:/Users/Cliente/OneDrive/Iniciação Científica/Netbeans/Pasta_Cimentada/lib/geometria/Linha.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="C:/Users/Leonardo/Documents/Iniciação Científica/Pasta Cimentada/lib/geometria/Tubo.cpp"
+      <item path="C:/Users/Cliente/OneDrive/Iniciação Científica/Netbeans/Pasta_Cimentada/lib/geometria/Tubo.cpp"
             ex="false"
             tool="1"
             flavor2="0">

@@ -29,8 +29,11 @@ std :: ostream& operator << (std:: ostream& _os, const Tubo& _tubo){
 
 
 std :: istream& operator >> (std:: istream& _os,  Tubo& _tubo){
-    _os >> _tubo.dinterno >> _tubo.espessura >> _tubo.dexterno
-        >> _tubo.comprimento >> _tubo.angulo;
+    _os >> _tubo.dinterno    >> 
+           _tubo.espessura   >> 
+           _tubo.dexterno    >> 
+           _tubo.comprimento >> 
+           _tubo.angulo;
     }
 
 //==============================================================================
@@ -38,28 +41,43 @@ std :: istream& operator >> (std:: istream& _os,  Tubo& _tubo){
 //==============================================================================
 
 const Tubo DInterno (const Tubo& _tubo, const Real& _real){
-    return Tubo (_real, _tubo.espessura, _tubo.dexterno, _tubo.comprimento,
+    return Tubo (_real,
+                 _tubo.espessura,
+                 _tubo.dexterno, 
+                 _tubo.comprimento,
                  _tubo.angulo);
 }
 
 const Tubo Espessura (const Tubo& _tubo, const Real& _real){
-     return Tubo (_tubo.dinterno, _real, _tubo.dexterno, _tubo.comprimento,
+     return Tubo (_tubo.dinterno, 
+                  _real, 
+                  _tubo.dexterno, 
+                  _tubo.comprimento,
                   _tubo.angulo);
 }
 
 const Tubo DExterno (const Tubo& _tubo, const Real& _real){
-     return Tubo (_tubo.dinterno, _tubo.espessura, _real, _tubo.comprimento,
+     return Tubo (_tubo.dinterno, 
+                  _tubo.espessura, 
+                  _real, 
+                  _tubo.comprimento,
                   _tubo.angulo);
 }
 
 const Tubo Comprimento (const Tubo& _tubo, const Real& _real){
-     return Tubo (_tubo.dinterno, _tubo.espessura, _tubo.dexterno, _real,
+     return Tubo (_tubo.dinterno, 
+                  _tubo.espessura, 
+                  _tubo.dexterno, 
+                  _real,
                   _tubo.angulo);
 }
 
 const Tubo Angulo (const Tubo& _tubo, const Real& _real){
-     return Tubo (_tubo.dinterno, _tubo.espessura, _tubo.dexterno, 
-                  _tubo.comprimento, _real);
+     return Tubo (_tubo.dinterno, 
+                  _tubo.espessura, 
+                  _tubo.dexterno, 
+                  _tubo.comprimento,
+                  _real);
 }
 
 //==============================================================================
